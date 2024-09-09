@@ -13,6 +13,7 @@ var test_cases = []struct {
 	{"dawsd", []string{"da", "ws", "d_"}},
 	{"awsaws", []string{"aw", "sa", "ws"}},
 	{"drr", []string{"dr", "r_"}},
+	{"golangisawesome", []string{"go", "la", "ng", "is", "aw", "es", "om", "e_"}},
 }
 
 func TestSplitStrings(t *testing.T) {
